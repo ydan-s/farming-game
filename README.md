@@ -16,15 +16,14 @@ The program simulates Farmer Ali's shop, allowing her to manage inventory, custo
 ```
 src/
 ├── farm/
-│   ├── core/                      # FarmManager, Farm, exceptions
-│   ├── customer/                  # AddressBook, Customer
-│   ├── inventory/                 # Inventory, BasicInventory, FancyInventory
-│   │   └── product/                 # Product, Egg, Jam, Milk, Wool
-│   │       └── data/                  # Barcode, Quality (provided)
-│   └── sales/                     # Cart, TransactionManager, TransactionHistory
-│       └── transaction/             # Transaction, CategorisedTransaction, SpecialSaleTransaction
-ai/
-└── README.txt                     # Generative AI usage declaration (if applicable)
+   ├── core/                      # FarmManager, Farm, exceptions
+   ├── customer/                  # AddressBook, Customer
+   ├── inventory/                 # Inventory, BasicInventory, FancyInventory
+   │   └── product/                 # Product, Egg, Jam, Milk, Wool
+   │       └── data/                  # Barcode, Quality (provided)
+   └── sales/                     # Cart, TransactionManager, TransactionHistory
+       └── transaction/             # Transaction, CategorisedTransaction, SpecialSaleTransaction
+
 ```
 
 ## Setup
