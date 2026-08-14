@@ -1,0 +1,22 @@
+package farm.core;
+
+/**
+ * Thrown if a customer is not found when looked up.
+ */
+public class CustomerNotFoundException extends Exception {
+
+    /**
+     * Constructs a customer not found exception.
+     */
+    public CustomerNotFoundException() {
+    }
+
+    /**
+     * Constructs a customer not found exception with a message describing
+     * the exception.
+     * @param message The description of the exception.
+     */
+    public CustomerNotFoundException(String message) {
+        super(message);
+    }
+}
