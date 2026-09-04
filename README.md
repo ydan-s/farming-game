@@ -1,6 +1,6 @@
 # Farm MVP
 
-A text-based farm shop management program built for **CSSE2002 (Programming in the Large)**, Assignment 1, Semester 2 2024, at the University of Queensland.
+A text-based farm shop management program.
 
 The program simulates Farmer Ali's shop, allowing her to manage inventory, customers, sales transactions, and sales history through a command-line interface.
 
@@ -30,7 +30,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/y-dans/farming-game
    ```
 2. Open the project in IntelliJ (or your preferred IDE).
 3. Requires **Temurin JDK 21** and **JUnit 4**.
@@ -68,15 +68,9 @@ See the assignment spec for the full set of sub-commands within each mode.
 Run the provided JUnit tests (and your own) via IntelliJ's test runner, or:
 
 ```bash
-# adjust classpath to include your JUnit 4 jar
 javac -cp .:junit-4.jar -d bin src/farm/**/*.java test/**/*.java
-java -cp bin:junit-4.jar org.junit.runner.JUnitCore <TestClassName>
 ```
 
 ## Author
 
-Sandy Nguyen — completed for CSSE2002, Semester 2 2024, University of Queensland.
-
-## Note
-
-This repository is kept **private** in line with the course's academic integrity policy, as CSSE2002 reuses this assignment across semesters.
+Sandy Nguyen
